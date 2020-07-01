@@ -5,6 +5,7 @@ import Basic1 from "./components/Basic1";
 import Fetch from "./components/Fetch";
 import AppContext from "./contexts/AppContexts";
 import B from "./components/B";
+import BasicReducer from "./components/BasicReducer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Basic1 name="佐々木だよ" />
           <Fetch />
           <B />
+          <BasicReducer />
         </header>
       </div>
     </AppContext.Provider>
